@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon src/server"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,8 @@
   "homepage": "https://github.com/aman1517/UnitC4-evaluation-#readme",
   "dependencies": {
     "express": "^4.17.3",
-    "mongoose": "^6.2.8"
+    "express-validator": "^6.14.0",
+    "mongoose": "^6.2.8",
+    "validator": "^13.7.0"
   }
 }
